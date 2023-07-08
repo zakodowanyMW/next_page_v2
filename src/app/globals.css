@@ -8,13 +8,20 @@ html,
 body {
   max-width: 100vw;
   overflow-x: hidden;
-  background-color: #111;
-  color: #bbb;
 }
 
 a {
   text-decoration: none;
   color: inherit;
+}
+
+.theme.light {
+  background-color: #fff;
+  color: rgb(76, 76, 76);
+}
+.theme.dark {
+  background-color: #111;
+  color: #bbb;
 }
 
 .theme{
