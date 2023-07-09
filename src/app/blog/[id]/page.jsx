@@ -49,9 +49,8 @@ const BlogPost = async ({ params }) => {
          Dolor fugit enim veritatis vitae suscipit quasi reprehenderit natus, laudantium earum nihil, molestiae vel! Error architecto nulla tempora, magnam quam dolor neque quae assumenda quidem impedit beatae quod. Accusamus, deleniti.
          <br/>
          <br/>
-          <p>Nesciunt sapiente magnam neque accusamus, a eaque quas accusantium temporibus esse praesentium fugit quos ipsam earum, corporis incidunt, veniam sunt. Harum maiores cumque hic vero minus ipsam obcaecati totam architecto.
+          Nesciunt sapiente magnam neque accusamus, a eaque quas accusantium temporibus esse praesentium fugit quos ipsam earum, corporis incidunt, veniam sunt. Harum maiores cumque hic vero minus ipsam obcaecati totam architecto.
           Dolor fugit enim veritatis vitae suscipit quasi reprehenderit natus, laudantium earum nihil, molestiae vel! Error architecto nulla tempora, magnam quam dolor neque quae assumenda quidem impedit beatae quod. Accusamus, deleniti.
-          </p>
         </p>
       </div>
     </div>

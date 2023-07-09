@@ -7,11 +7,9 @@ import Button from "@/components/button/Button";
 
 const getData = (cat) => {
   const data = items[cat];
-
   if (data) {
     return data;
   }
-
   return notFound();
 };
 
