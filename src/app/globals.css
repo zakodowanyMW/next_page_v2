@@ -15,6 +15,44 @@ a {
   color: inherit;
 }
 
+
+/* Firefox */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: #24719B #DFE9EB;
+}
+
+/* Chrome, Edge and Safari */
+*::-webkit-scrollbar {
+  width: 9px;
+  width: 9px;
+}
+*::-webkit-scrollbar-track {
+  border-radius: 6px;
+  background-color: #DFE9EB;
+}
+
+*::-webkit-scrollbar-track:hover {
+  background-color: #B8C0C2;
+}
+
+*::-webkit-scrollbar-track:active {
+  background-color: #B8C0C2;
+}
+
+*::-webkit-scrollbar-thumb {
+  border-radius: 5px;
+  background-color: #24719B;
+}
+
+*::-webkit-scrollbar-thumb:hover {
+  background-color: #369AC2;
+}
+
+*::-webkit-scrollbar-thumb:active {
+  background-color: #1C54A3;
+}
+
 .theme.light {
   background-color: #fff;
   color: rgb(76, 76, 76);
