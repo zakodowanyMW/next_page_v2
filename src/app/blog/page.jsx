@@ -13,7 +13,7 @@ async function getData() {
 async function Blog() {
   const data = await getData();
   let data2 = [];
-  for (let i = 0; i < 10; i++) {
+  for (let i = 0; i < data.length; i++) {
     data2.push(data[i]);
   }
   console.log(data2);
@@ -44,7 +44,7 @@ async function Blog() {
 
   return (
     <div className={styles.mainContainer}>
-      {data.map((item, index) => (
+      {data2.map((item, index) => (
         <Link href={`/blog/${item._id}`} className={styles.container} key={item._id}>
           <div className={styles.imageContainer}>
             <Image src={(index < 5) ? images[index].url : defaultImage} alt="" width="400" height="250" className={styles.image} />
