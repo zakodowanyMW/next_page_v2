@@ -1,8 +1,6 @@
 import mongoose from "mongoose";
 
-const {Schema} = mongoose;
-
-let postSchema = new Schema({
+let postSchema = new mongoose.Schema({
     title: {
         type: String,
         required: true,
