@@ -5,7 +5,7 @@ import Button from "@/components/button/Button";
 
 
 export const metadata = {
-  title: "Lama Dev Contact Information",
+  title: "Winiar DEV Contact Information",
   description: "This is Contact Page",
 };
 
